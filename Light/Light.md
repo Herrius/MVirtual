@@ -56,6 +56,7 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
     - **Contraseñas:**
 
     ![](Pasted%20image%2020250125110508.png)
+    
     **Resultado:** Obtuve la lista completa de nombres de usuario y contraseñas.
 ---
 #### **Conclusión**
