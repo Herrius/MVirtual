@@ -13,6 +13,7 @@ Al observar la URL objetivo, identificamos un parámetro `?page` que parece ser 
 http://10.10.26.18/?page=
 ```
 ![](Pasted%20image%2020250125132102.png)
+
 Se intentó explotar esta vulnerabilidad utilizando traversal de directorios básicos.
 
 ---
