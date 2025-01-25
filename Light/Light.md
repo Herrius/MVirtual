@@ -7,7 +7,8 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
 1. **Conexion al servicio:**
     
     - Nos conectamos al servicio utilizando Netcat en la dirección IP `10.10.124.79` y puerto `1337`:
-      ![](Pasted%20image%2020250125102922.png)
+      ![](Pasted%20image%2020250125102922.png.png)
+      
       **Descripción del Servicio:**  
 		El servicio solicita un nombre de usuario y realiza validaciones en un backend SQL.
 
@@ -17,6 +18,7 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
 
 1. **Prueba de Comillas Simples:** Al introducir una comilla simple (`'`), el sistema devuelve un error de sintaxis:
      ![](Pasted%20image%2020250125103744.png)
+    
     Esto confirma una posible **vulnerabilidad de inyección SQL**, ya que las entradas no están correctamente sanitizadas.
     
 2. **Restricciones Detectadas:**
