@@ -28,6 +28,7 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
 
       ![](Pasted%20image%2020250125103923.png)
     - Caracteres como `/*`, `--`, y `%0b` son rechazados.
+    
       ![](Pasted%20image%2020250125104217.png)
 
     - El uso de mayúsculas/minúsculas en las palabras clave (`SeLeCt`, `UnIoN`) elude el filtro.
