@@ -40,14 +40,18 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
 #### **Explotación**
 
 1. **Confirmación del Backend:** Se verificó que el backend es SQLite ejecutando la siguiente consulta:
+
 ![](Pasted%20image%2020250125105755.png)
 
 **Resultado:** Devuelve la versión de SQLite.
     
 2. **Enumeración de Tablas:** Para identificar las tablas disponibles en la base de datos, se utilizó la consulta:
-![](Pasted%20image%2020250125110150.png)    
-    **Resultado:**  
+
+![](Pasted%20image%2020250125110150.png)
+
+**Resultado:**  
     Enumeró todas las tablas y sus esquemas, identificando una tabla relevante llamada `admintable`.
+
 3. **Extracción de Credenciales:** Con la tabla identificada, se realizaron las siguientes consultas para extraer nombres de usuario y contraseñas:
     - **Nombres de Usuario:**
 
