@@ -46,6 +46,7 @@ Una vez dentro, no encontramos información relevante en las secciones del sitio
 ![](4.png)
 
 Decidimos probar valores cercanos y al modificarlo a `ID=6`, descubrimos credenciales que podríamos usar para una conexión SSH.
+
 ![](5.png)
 ## 5. Acceso SSH y obtención de la primera flag
 
@@ -62,6 +63,7 @@ Al ingresar, encontramos un archivo de texto con un mensaje que contiene la **pr
 Para obtener acceso root, revisamos vulnerabilidades de escalamiento, pero todas están parchadas. Exploramos los logs en busca de información sobre el usuario **Tyler** y encontramos una contraseña filtrada en el servicio **PostgreSQL**:
 
 ![](7.png)
+
 ![](8.png)
 ```
 ssh: tyler@10.10.37.31
@@ -77,6 +79,7 @@ sudo -l
 ```
 
 ![](10.png)
+
 Descubrimos que podemos escalar privilegios a **root**, por lo que procedemos con la escalada.
 
 ```bash
@@ -84,6 +87,7 @@ sudo su
 ```
 
 ![](11.png)
+
 Ahora podemos inspeccionar la carpeta **/root** donde encontramos la **flag final**.
 
 ![](12.png)
