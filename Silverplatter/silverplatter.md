@@ -1,4 +1,4 @@
-# Walkthrough del CTF
+# Silverplatter
 
 ## 1. Exploración inicial
 
@@ -40,6 +40,7 @@ Contraseña: adipiscing
 
 Una vez dentro, no encontramos información relevante en las secciones del sitio web. Sin embargo, en la sección de **notificaciones**, encontramos un mensaje con una URL que termina en `ID=5`.
 ![](4.png)
+
 Decidimos probar valores cercanos y al modificarlo a `ID=6`, descubrimos credenciales que podríamos usar para una conexión SSH.
 ![](5.png)
 ## 5. Acceso SSH y obtención de la primera flag
@@ -55,6 +56,7 @@ Al ingresar, encontramos un archivo de texto con un mensaje que contiene la **pr
 ## 6. Escalada de privilegios a root
 
 Para obtener acceso root, revisamos vulnerabilidades de escalamiento, pero todas están parchadas. Exploramos los logs en busca de información sobre el usuario **Tyler** y encontramos una contraseña filtrada en el servicio **PostgreSQL**:
+
 ![](7.png)
 ![](8.png)
 ```
@@ -69,14 +71,17 @@ Ejecutamos el siguiente comando para verificar permisos de `sudo`:
 ```bash
 sudo -l
 ```
+
 ![](10.png)
 Descubrimos que podemos escalar privilegios a **root**, por lo que procedemos con la escalada.
 
 ```bash
 sudo su
 ```
+
 ![](11.png)
 Ahora podemos inspeccionar la carpeta **/root** donde encontramos la **flag final**.
+
 ![](12.png)
 
 
