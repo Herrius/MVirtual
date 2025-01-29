@@ -1,4 +1,4 @@
-#### **Objetivo**
+## **Objetivo**
 
 Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite para obtener los nombres de usuario y contraseñas almacenados en la base de datos.
 
@@ -15,7 +15,7 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
 
 ---
 
-#### **Identificación de Vulnerabilidades**
+## **Identificación de Vulnerabilidades**
 
 1. **Prueba de Comillas Simples:** Al introducir una comilla simple (`'`), el sistema devuelve un error de sintaxis:
 
@@ -37,7 +37,7 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
 
 ---
 
-#### **Explotación**
+## **Explotación**
 
 1. **Confirmación del Backend:** Se verificó que el backend es SQLite ejecutando la siguiente consulta:
 
@@ -62,7 +62,7 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
     
     **Resultado:** Obtuve la lista completa de nombres de usuario y contraseñas.
 ---
-#### **Conclusión**
+## **Conclusión**
 - **Vulnerabilidad Explotada:** La máquina presenta una inyección SQL debido al manejo deficiente de las entradas del usuario.
 - **Impacto:**  
     Acceso completo a credenciales almacenadas en la base de datos.
