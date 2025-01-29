@@ -16,8 +16,12 @@ nmap -p- 10.10.37.31
 ![](01.png)
 ## 3. Ataque de fuerza bruta en SilverPeas
 
-Al acceder al servicio SilverPeas en el puerto **8080**, nos encontramos con un formulario de autenticación, pero no conocemos la contraseña. Para solucionar esto, utilizamos la herramienta **CEWL** para generar un diccionario de contraseñas a partir de la página web inicial:
+Al acceder al servicio SilverPeas en el puerto **8080**, nos encontramos con un formulario de autenticación, pero no conocemos la contraseña.
+
 ![](2.png)
+
+ Para solucionar esto, utilizamos la herramienta **CEWL** para generar un diccionario de contraseñas a partir de la página web inicial:
+
 ```bash
 cewl http://10.10.37.31 -w passwords.txt
 ```
