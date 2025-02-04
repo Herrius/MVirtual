@@ -1,4 +1,4 @@
-# Walkthrough: Bandit Level 32 to Level 33
+# AF. Walkthrough: Bandit Level 32 to Level 33
 
 ## Objetivo del Nivel
 

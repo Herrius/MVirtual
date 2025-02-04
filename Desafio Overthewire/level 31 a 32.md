@@ -1,4 +1,4 @@
-# Walkthrough: Bandit Level 31 to Level 32
+# AE. Walkthrough: Bandit Level 31 to Level 32
 
 ## Objetivo del Nivel
 

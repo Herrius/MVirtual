@@ -1,4 +1,4 @@
-# Walkthrough: Bandit Level 30 to Level 31
+# AD. Walkthrough: Bandit Level 30 to Level 31
 
 ## Objetivo del Nivel
 
