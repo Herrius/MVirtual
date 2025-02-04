@@ -1,4 +1,4 @@
-# Bandit Level 6 → Level 7 - Walkthrough
+# 6 Bandit Level 6 → Level 7 - Walkthrough
 
 ## Objetivo del Nivel
 

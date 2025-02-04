@@ -1,4 +1,4 @@
-# Bandit Level 8 → Level 9 - Walkthrough
+# 8 Bandit Level 8 → Level 9 - Walkthrough
 
 ## Objetivo del Nivel
 

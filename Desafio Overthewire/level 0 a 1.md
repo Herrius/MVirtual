@@ -1,4 +1,4 @@
-# Bandit Level 0 - Walkthrough
+# 0 Bandit Level 0 - Walkthrough
 
 ## Objetivo del Nivel
 

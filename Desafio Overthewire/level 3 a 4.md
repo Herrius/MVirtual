@@ -1,4 +1,4 @@
-# Bandit Level 3 → Level 4 - Walkthrough
+# 3 Bandit Level 3 → Level 4 - Walkthrough
 
 ## Objetivo del Nivel
 
