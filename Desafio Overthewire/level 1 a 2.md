@@ -1,4 +1,4 @@
-# 1 Bandit Level 1 → Level 2 - Walkthrough
+# B. Bandit Level 1 → Level 2 - Walkthrough
 
 ## Objetivo del Nivel
 

@@ -1,4 +1,4 @@
-# 5 Bandit Level 5 → Level 6 - Walkthrough
+# F. Bandit Level 5 → Level 6 - Walkthrough
 
 ## Objetivo del Nivel
 

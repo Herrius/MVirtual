@@ -1,4 +1,4 @@
-# Bandit Level 17 → Level 18 - Walkthrough
+# R. Bandit Level 17 → Level 18 - Walkthrough
 
 ## Objetivo del Nivel
 

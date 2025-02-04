@@ -1,4 +1,4 @@
-# Walkthrough Bandit Level 23 → Level 24
+# X. Walkthrough Bandit Level 23 → Level 24
 
 Este walkthrough te guía paso a paso para aprovechar el cronjob que ejecuta un script en el sistema y obtener la contraseña del usuario **bandit24**.
 

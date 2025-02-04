@@ -1,4 +1,4 @@
-# Bandit Level 25 → Level 27 - Walkthrough
+# Z. Bandit Level 25 → Level 27 - Walkthrough
 
 ## Objetivo del Nivel
 

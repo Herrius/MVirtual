@@ -1,4 +1,4 @@
-# Bandit Level 15 → Level 16 - Walkthrough
+# P. Bandit Level 15 → Level 16 - Walkthrough
 
 ## Objetivo del Nivel
 

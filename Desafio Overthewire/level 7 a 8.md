@@ -1,4 +1,4 @@
-# 7 Bandit Level 7 → Level 8 - Walkthrough
+# H. Bandit Level 7 → Level 8 - Walkthrough
 
 ## Objetivo del Nivel
 

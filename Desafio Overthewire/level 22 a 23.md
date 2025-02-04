@@ -1,4 +1,4 @@
-# Bandit Level 22 → Level 23 - Walkthrough
+# W. Bandit Level 22 → Level 23 - Walkthrough
 
 ## Objetivo del Nivel
 

@@ -1,4 +1,4 @@
-# 9 Bandit Level 9 → Level 10 - Walkthrough
+# J. Bandit Level 9 → Level 10 - Walkthrough
 
 ## Objetivo del Nivel
 

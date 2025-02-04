@@ -1,4 +1,4 @@
-# Bandit Level 12 → Level 13 - Walkthrough
+# M. Bandit Level 12 → Level 13 - Walkthrough
 
 ## Objetivo del Nivel
 

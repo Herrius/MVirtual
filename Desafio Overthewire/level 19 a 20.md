@@ -1,4 +1,4 @@
-# Bandit Level 19 → Level 20 - Walkthrough
+# T. Bandit Level 19 → Level 20 - Walkthrough
 
 ## Objetivo del Nivel
 

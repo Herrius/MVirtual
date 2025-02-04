@@ -1,4 +1,4 @@
-# **Bandit Level 24 → Level 25 - Walkthrough**
+# Y. **Bandit Level 24 → Level 25 - Walkthrough**
 
 ## **Objetivo del Nivel**
 Un daemon está escuchando en el puerto **30002** y proporcionará la contraseña para `bandit25` si recibe la contraseña correcta de `bandit24` y un código PIN de 4 dígitos. No hay manera de obtener el PIN más que probando todas las combinaciones posibles, lo que significa que debemos hacer un **ataque de fuerza bruta**.

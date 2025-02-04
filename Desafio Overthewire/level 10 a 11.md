@@ -1,4 +1,4 @@
-# 10 Bandit Level 10 → Level 11 - Walkthrough
+# K. Bandit Level 10 → Level 11 - Walkthrough
 
 ## Objetivo del Nivel
 
