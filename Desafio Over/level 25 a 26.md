@@ -1,0 +1,1 @@
+No logre conseguir la solucion tuve un error extraño de que no se replicaba el resultado esperado cuando se redimensionaba el terminal
