@@ -1,7 +1,3 @@
-Aquí tienes el **walkthrough** detallado del problema **Bandit Level 24 → Level 25** con una explicación clara del proceso de fuerza bruta y el código optimizado en Python.
-
----
-
 # **Bandit Level 24 → Level 25 - Walkthrough**
 
 ## **Objetivo del Nivel**

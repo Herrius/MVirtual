@@ -1,7 +1,3 @@
-A continuación se muestra el walkthrough corregido en formato Markdown, que reproduce exactamente la solución efectiva para avanzar del nivel 23 al 24:
-
----
-
 # Walkthrough Bandit Level 23 → Level 24
 
 Este walkthrough te guía paso a paso para aprovechar el cronjob que ejecuta un script en el sistema y obtener la contraseña del usuario **bandit24**.
