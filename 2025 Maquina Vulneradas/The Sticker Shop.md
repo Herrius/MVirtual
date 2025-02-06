@@ -7,19 +7,19 @@ Este walkthrough describe el proceso para vulnerar una máquina en TryHackMe, id
 Al acceder a la página web, encontramos dos pestañas principales:
 
 - **Home**
-![](Pasted%20image%2020250205154407.png)
+![](the%20sticker%20shop%20(1).png)
 
 - **Feedback**
 
-![](Pasted%20image%2020250205154448.png)
+![](the%20sticker%20shop%20(2).png)
 
 La premisa inicial de TryHackMe nos proporciona la URL donde se encuentra la flag:
 
 ```
 http://10.10.167.141:8080/flag.txt
 ```
+![](the%20sticker%20shop%20(3).png)
 
-![](Pasted%20image%2020250205154515.png)
 
 ## Paso 2: Intento de Bypass 401
 
@@ -32,7 +32,7 @@ http://10.10.167.141:8080/Flag.Txt
 
 Sin embargo, todos estos intentos resultan en errores 404 o 405, lo que hace imposible realizar el bypass por este método.
 
-![](Pasted%20image%2020250205154558.png)
+![](the%20sticker%20shop%20(4).png)
 ## Paso 3: Exploración de Feedback y Pruebas de XSS
 
 En la pestaña **Feedback**, encontramos un cuadro de texto donde podemos ingresar datos. Se realizan pruebas de inyección de script, pero la inyección básica:

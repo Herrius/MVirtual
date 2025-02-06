@@ -6,13 +6,13 @@
 
 En la premisa inicial de la página de TryHackMe, se indica que el parámetro de la URL podría ser explotado. Esto sugiere que hay una vulnerabilidad relacionada con **Inclusión de Archivos Locales (LFI)**.
 
-![Premisa Inicial](Pasted%20image%2020250125132145.png)
+![](lofi%20(1).png)
 
 Al observar la URL objetivo, identificamos un parámetro `?page` que parece ser manipulable:
 ```
 http://10.10.26.18/?page=
 ```
-![](Pasted%20image%2020250125132102.png)
+![](lofi%20(2).png)
 
 Se intentó explotar esta vulnerabilidad utilizando traversal de directorios básicos.
 
@@ -28,7 +28,7 @@ http://10.10.26.18/?page=/../../../../etc/passwd
 
 Sin embargo, al probar este enfoque, nos encontramos con que el servidor bloquea la solicitud, indicando la presencia de un filtro.
 
-![Bloqueo Inicial](Pasted%20image%2020250125132445.png)
+![](lofi%20(3).png)
 
 ---
 
@@ -41,8 +41,8 @@ http://10.10.26.18/?page=../../../../etc/passwd
 ```
 
 El servidor devolvió el contenido del archivo `/etc/passwd`, confirmando la existencia de la vulnerabilidad de LFI.
+![](lofi%20(4).png)
 
-![Éxito en el Bypass](Pasted%20image%2020250125132701.png)
 
 ---
 
@@ -58,6 +58,6 @@ http://10.10.26.18/?page=../../../../../../../../flag.txt
 
 Al realizar esta solicitud, obtuvimos el contenido del archivo `flag.txt`, completando con éxito el objetivo.
 
-![Flag Encontrada](Pasted%20image%2020250125132826.png)
+![](lofi%20(5).png)
 
 

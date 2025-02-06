@@ -8,7 +8,7 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
     
     - Nos conectamos al servicio utilizando Netcat en la dirección IP `10.10.124.79` y puerto `1337`:
 
-      ![](Pasted%20image%2020250125102922.png.png)
+![](light%20(3).png)      
       
       **Descripción del Servicio:**  
 		El servicio solicita un nombre de usuario y realiza validaciones en un backend SQL.
@@ -19,21 +19,22 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
 
 1. **Prueba de Comillas Simples:** Al introducir una comilla simple (`'`), el sistema devuelve un error de sintaxis:
 
-     ![](Pasted%20image%2020250125103744.png)
+![](light%20(4).png)     
     
     Esto confirma una posible **vulnerabilidad de inyección SQL**, ya que las entradas no están correctamente sanitizadas.
     
 2. **Restricciones Detectadas:**
     - Palabras clave como `SELECT`, `UNION`, y `FROM` están bloqueadas.
 
-      ![](Pasted%20image%2020250125103923.png)
+        ![](light%20(5).png)      
+
     - Caracteres como `/*`, `--`, y `%0b` son rechazados.
 
-      ![](Pasted%20image%2020250125104217.png)
+        ![](light%20(6).png)
 
     - El uso de mayúsculas/minúsculas en las palabras clave (`SeLeCt`, `UnIoN`) elude el filtro.
 
-      ![](Pasted%20image%2020250125104340.png)
+      ![](light%20(7).png)
 
 ---
 
@@ -41,13 +42,13 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
 
 1. **Confirmación del Backend:** Se verificó que el backend es SQLite ejecutando la siguiente consulta:
 
-![](Pasted%20image%2020250125105755.png)
+![](light%20(8).png)
 
 **Resultado:** Devuelve la versión de SQLite.
     
 2. **Enumeración de Tablas:** Para identificar las tablas disponibles en la base de datos, se utilizó la consulta:
 
-![](Pasted%20image%2020250125110150.png)
+![](light%20(9).png)
 
 **Resultado:**  
     Enumeró todas las tablas y sus esquemas, identificando una tabla relevante llamada `admintable`.
@@ -55,10 +56,10 @@ Explotar una vulnerabilidad de inyección SQL en un servicio basado en SQLite pa
 3. **Extracción de Credenciales:** Con la tabla identificada, se realizaron las siguientes consultas para extraer nombres de usuario y contraseñas:
     - **Nombres de Usuario:**
 
-    ![](Pasted%20image%2020250125110256.png)
+    ![](light%20(1).png)
     - **Contraseñas:**
 
-    ![](Pasted%20image%2020250125110508.png)
+    ![](light%20(2).png)
     
     **Resultado:** Obtuve la lista completa de nombres de usuario y contraseñas.
 ---
