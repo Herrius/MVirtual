@@ -1,4 +1,4 @@
-# Walkthrough - Máquina Lookup (TryHackMe)
+#  Lookup
 
 ## Configuracion del host'
 Primero  entraremos a etc/hosts para configurar la ip junto con su dominio
