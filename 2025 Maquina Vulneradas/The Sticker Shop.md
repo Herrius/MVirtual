@@ -7,6 +7,7 @@ Este walkthrough describe el proceso para vulnerar una máquina en TryHackMe, id
 Al acceder a la página web, encontramos dos pestañas principales:
 
 - **Home**
+
 ![](the%20sticker%20shop%20(1).png)
 
 - **Feedback**

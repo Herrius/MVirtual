@@ -41,6 +41,7 @@ http://10.10.26.18/?page=../../../../etc/passwd
 ```
 
 El servidor devolvió el contenido del archivo `/etc/passwd`, confirmando la existencia de la vulnerabilidad de LFI.
+
 ![](lofi%20(4).png)
 
 
