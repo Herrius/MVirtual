@@ -13,16 +13,13 @@ Soy un profesional apasionado por la ciberseguridad ofensiva, con énfasis en:
 - **Ciberseguridad práctica** orientada a resultados.
 - **Automatización** mediante scripts en Python y Bash para auditorías eficientes.
 
-Estoy en constante aprendizaje, especialmente a través de plataformas como **TryHackMe**, **Hack The Box** y desafíos como **OverTheWire**.
+Estoy en constante aprendizaje, especialmente a través de plataformas como **TryHackMe**, **Hack The Box** y desafíos como **OverTheWire**.Adicionalmente, estoy preparandome para la certificacion de CAPEN de SecOps.
 
 ---
 
-## Mis Guías y Desafíos
-
-A continuación, puedes explorar mis guías prácticas y detalladas:
-
-### OverTheWire - Bandit
-[Desafio Overthewire](Desafio)
+## Desafios completado
+- [Maquinas vulneradas 2025](2025-maquina-vulneradas)
+- [Desafio Overthewire](desafio-overthewire)
 
 ---
 
@@ -40,34 +37,11 @@ Estas son algunas de las herramientas que uso frecuentemente:
 
 ---
 
-## Últimas publicaciones
-
-- **Introducción al Hacking Ético**  
-  Un recorrido práctico para iniciar tu carrera en ciberseguridad ofensiva.
-
-- **Automatización para Pentesters**  
-  Cómo optimizar procesos repetitivos con scripts personalizados.
-
-- **Redacción de Informes Técnicos**  
-  Guía para entregar reportes claros y efectivos en auditorías de seguridad.
-
-[Explorar más artículos →](#)
-
----
-
 ## Contacto
 
 Estoy abierto a colaborar, discutir ideas y participar en proyectos interesantes. Conecta conmigo:
 
-- 📧 [tucorreo@dominio.com](mailto:tucorreo@dominio.com)
-- 🐙 [GitHub](https://github.com/TuUsuarioGitHub)
-- 💼 [LinkedIn](#)
+- 📧 [enriqueubaldo97@gmail.com](mailto:enriqueubaldo97@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/herrius/)
 
----
-
-> **Consejo práctico:** Siempre realiza auditorías éticas con autorización explícita. El respeto y la responsabilidad son la base del hacking ético profesional.
-
----
-
-_© 2025 - Todos los derechos reservados._
 
