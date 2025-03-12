@@ -18,8 +18,8 @@ Estoy en constante aprendizaje, especialmente a través de plataformas como **Tr
 ---
 
 ## Desafios completado
-- [Maquinas vulneradas 2025](2025-maquina-vulneradas)
-- [Desafio Overthewire](desafio-overthewire)
+- [Maquinas vulneradas 2025](https://herrius.gitbook.io/herrius/2025-maquina-vulneradas)
+- [Desafio Overthewire](https://herrius.gitbook.io/herrius/desafio-overthewire)
 
 ---
 
