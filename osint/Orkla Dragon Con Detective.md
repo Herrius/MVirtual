@@ -1,14 +1,4 @@
-# INFORME DE INVESTIGACIÓN OSINT  
-**Caso:** Orkla: Dragon Con Detective  
-**Fecha de inicio:** 09/04/2025  
-**Tipo de objetivo:** Otro  
-**Propósito del ejercicio:** Entrenamiento en técnicas OSINT  
-**Herramientas utilizadas:** Google, What3Words, Whisper, Google Dorking, Google Maps, Boston Marathon Results Archive, análisis de imágenes.
-
----
-
 ## 1. INFORMACIÓN GENERAL DEL CASO
-
 - **Título:** Orkla: Dragon Con Detective  
 - **Tipo de objetivo:** Otro (Desafíos temáticos con componentes de ubicación, imágenes y transcripción)  
 - **Fecha de inicio:** 09/04/2025  
