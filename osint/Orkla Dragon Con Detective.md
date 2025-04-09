@@ -31,9 +31,12 @@ El objetivo consistía en identificar la ubicación más cercana de una máquina
 - Se accedió a la función “Find Location” del sitio web, ingresando **Atlanta** como ciudad.  
 - Se validó que la ubicación más cercana era el propio hotel sede del evento, confirmado mediante Google Maps.
 
-![Paso inicial](Pasted%20image%2020250409164015.png)  
-![Resultado en buscador](Pasted%20image%2020250409164131.png)  
-![Formulario de búsqueda](Pasted%20image%2020250409164238.png)  
+![Paso inicial](Pasted%20image%2020250409164015.png)
+
+![Resultado en buscador](Pasted%20image%2020250409164131.png)
+
+![Formulario de búsqueda](Pasted%20image%2020250409164238.png)
+
 ![Resultado final](Pasted%20image%2020250409164435.png)
 
 ---
@@ -46,9 +49,12 @@ El ejercicio presentaba una pista sonora.
 - Al buscar esta frase en Google, se identificó el sitio **what3words**, sistema que codifica ubicaciones mediante combinaciones de palabras.  
 - El enlace conducía a la ubicación exacta solicitada.
 
-![Premisa del reto](Pasted%20image%2020250409164647.png)  
-![Resultado Whisper](Pasted%20image%2020250409164812.png)  
-![Resultados de búsqueda](Pasted%20image%2020250409165829.png)  
+![Premisa del reto](Pasted%20image%2020250409164647.png)
+
+![Resultado Whisper](Pasted%20image%2020250409164812.png)
+
+![Resultados de búsqueda](Pasted%20image%2020250409165829.png)
+
 ![Ubicación exacta en What3Words](Pasted%20image%2020250409165928.png)
 
 ---
@@ -61,8 +67,10 @@ La pista incluía una imagen con la descripción “bronze statue” y la menci�
 - Se aplicaron técnicas de Google Dorking para encontrar fotos específicas del lugar.  
 - La imagen obtenida reveló la estatua y el contexto del desafío.
 
-![Imagen del reto](Pasted%20image%2020250409171405.png)  
-![Aplicación de Dorking](Pasted%20image%2020250409171532.png)  
+![Imagen del reto](Pasted%20image%2020250409171405.png)
+
+![Aplicación de Dorking](Pasted%20image%2020250409171532.png)
+
 ![Resultado revelador](Pasted%20image%2020250409171553.png)
 
 ---
@@ -76,12 +84,18 @@ El reto consistía en identificar a un corredor en una imagen borrosa.
 - Utilizando el sitio *Boston Marathon Results Archive*, se consultaron los datos por año, país, edad y número.  
 - Se identificó correctamente al participante.
 
-![Caso planteado](Pasted%20image%2020250409174029.png)  
-![Imagen mejorada](Pasted%20image%2020250409174149.png)  
-![Imagen nítida](Pasted%20image%2020250409174215.png)  
-![Consulta de resultados](Pasted%20image%2020250409174312.png)  
-![Datos del dorsal](Pasted%20image%2020250409174359.png)  
+![Caso planteado](Pasted%20image%2020250409174029.png)
+
+![Imagen mejorada](Pasted%20image%2020250409174149.png)
+
+![Imagen nítida](Pasted%20image%2020250409174215.png)
+
+![Consulta de resultados](Pasted%20image%2020250409174312.png)
+
+![Datos del dorsal](Pasted%20image%2020250409174359.png)
+
 ![Resultado encontrado](Pasted%20image%2020250409174451.png)
+
 
 ---
 
