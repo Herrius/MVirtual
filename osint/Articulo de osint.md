@@ -10,7 +10,7 @@ No se trata de “hacking” en el sentido técnico tradicional, sino de **explo
 ---
 
 ## ¿Cómo iniciar?
-El primer paso es tener una base clara en ciberseguridad y análisis de información. Para eso recomiendo el curso **"Introduction to OSINT"** de **Security Blue Team**, que cubre:
+El primer paso es tener una base clara en ciberseguridad y análisis de información. Para eso recomiendo el curso [**"Introduction to OSINT"**](https://www.securityblue.team/courses/introduction-to-osint) de **Security Blue Team**, que cubre:
 - Principios básicos de OSINT  
 - Herramientas esenciales (buscadores, redes sociales, metadatos)  
 - Ética y legalidad en el uso de OSINT  
