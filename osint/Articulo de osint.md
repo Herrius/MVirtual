@@ -15,18 +15,20 @@ Una de las primeras habilidades a desarrollar es **encontrar información en im�
 ### 1. Gamificación con GeoGuessr  
 Una forma divertida y didáctica de aprender geolocalización es **[GeoGuessr](https://www.geoguessr.com/)**. Te ayudará a afinar el ojo para detectar pistas visuales en fotos y vídeos.
 
-![](Pasted%20image%2020250410123426.png)
+![Pagina de GeoGuessr](Pasted%20image%2020250410123426.png)
 
 ### 2. Desafíos OSINT de imágenes  
 Si quieres algo más técnico, prueba [los retos de **Sofía Santos**](https://gralhix.com/list-of-osint-exercises/): son ejercicios reales de análisis visual con fotos públicas. Muy buenos para pulir la observación.
-![](Pasted%20image%2020250410123541.png)
+
+![Desafios de sofia santos](Pasted%20image%2020250410123541.png)
+
 ### 3. Escenarios más amplios  
 OSINT no es solo imágenes. Puedes practicar:
 - **TryHackMe**: OhSINT Room,Google Dorking,etc  
 - **Kase Scenarios** (incluye una práctica gratuita básica): [OSINT Training Scenarios | Kase Scenarios](https://www.kasescenarios.com/osint-training/) 
 Eso sí, en la mayoría tendrás que pagar. Si tu presupuesto es ajustado, empieza por los [recursos gratuitos de Kase Scenarios](https://www.kasescenarios.com/dragon-con).
 
-![](Pasted%20image%2020250410124100.png)
+![Escenario gratuito de Kase](Pasted%20image%2020250410124100.png)
 
 ---
 ## Recursos para aprender más
@@ -41,8 +43,10 @@ Ambos te permitirán aprender de personas y grupos con más experiencia, amplian
 
 ## ¿Se puede trabajar de OSINT?
 Sí, pero no es fácil. Dependerá mucho de tus contactos, tu país y tu experiencia demostrable. No basta con saber, **alguien debe necesitar lo que sabes**.
-El artículo [How to land an OSINT job – We will always be OSINTCurio.us](https://www.osintcurio.us/2020/04/01/how-to-land-an-osint-job/)  explica los sectores donde puedes aplicar OSINT. 
-![](Pasted%20image%2020250410124144.png)
+El artículo [How to land an OSINT job – We will always be OSINTCurio.us](https://www.osintcurio.us/2020/04/01/how-to-land-an-osint-job/)  explica los sectores donde puedes aplicar OSINT.
+
+![Articulo de osint](Pasted%20image%2020250410124144.png)
+
 Aquí el resumen:
 ### Finanzas y contabilidad  
 - Investigador de lavado de dinero (AML)  
@@ -73,7 +77,8 @@ Si tienes posibilidad de trabajar o aplicar en el extranjero, hay una plataforma
 Reúne ofertas específicas para personas que ya manejan herramientas y conceptos de OSINT.  
 
 **Inglés es obligatorio**.
-![](Pasted%20image%2020250410124204.png)
+
+![Portal de trabajos de osint](Pasted%20image%2020250410124204.png)
 
 ---
 ## Conclusiones
