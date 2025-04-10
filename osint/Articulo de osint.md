@@ -2,6 +2,13 @@
 Este artículo está dirigido a personas que quieren especializarse en **OSINT (Open Source Intelligence)** y no saben por dónde empezar. La idea es darte una ruta clara, realista y práctica basada en experiencia y recursos útiles.
 
 ---
+## ¿Qué es OSINT?
+
+**OSINT** (Open Source Intelligence) es el proceso de recopilar, analizar y utilizar información proveniente de **fuentes públicas y accesibles legalmente**, como sitios web, redes sociales, foros, registros públicos, imágenes y metadatos, con el fin de obtener inteligencia útil para seguridad, investigación o análisis estratégico.  
+No se trata de “hacking” en el sentido técnico tradicional, sino de **explotar lo que ya está disponible** para cualquiera con habilidades, método y contexto.
+
+---
+
 ## ¿Cómo iniciar?
 El primer paso es tener una base clara en ciberseguridad y análisis de información. Para eso recomiendo el curso **"Introduction to OSINT"** de **Security Blue Team**, que cubre:
 - Principios básicos de OSINT  
