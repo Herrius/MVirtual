@@ -125,7 +125,9 @@ logs                    [Status: 301, Size: 318, Words: 20, Lines: 10, Duration:
 ```
 ### Logs
 Al ingresar a los logs encontramos esta informacion del correo electronico
+
 ![](hammer.png.png)
+
 ### 3. Fuerza bruta sobre código de recuperación
 La página `reset_password.php` contenía un formulario protegido por un contador de tiempo y un campo oculto, pero fue vulnerable a un ataque de fuerza bruta automatizado con rotación periódica de la cookie `PHPSESSID`. El script permitió encontrar el código correcto y cambiar la contraseña del usuario `tester@hammer.thm`.
 ``` 
@@ -276,7 +278,9 @@ if __name__ == "__main__":
 ### 4. JWT con validación débil
 
 Se identificó el uso de JWT (algoritmo HS256) para la autorización. En la cabecera del token se especificaba un parámetro `kid` que apuntaba a una ruta local del servidor (`/var/www/mykey.key`). Posteriormente, se descubrió un archivo accesible en el sistema (`188ade1.key`) que contenía la clave secreta usada para firmar los tokens. Esto permitió regenerar un token manualmente, modificando el campo `role` de `user` a `admin`.
+
 ![](hammer1.png.png)
+
 Inspeccion el codigo de la pagina web encontramos lo siguiente
 ```
 <!DOCTYPE html>
@@ -358,10 +362,13 @@ $(document).ready(function() {
 </html>
 ```
 Al seguir inspeccionando mediante el burp suite nos encontramos el token el cual lo revisaremos en la pagina de jwt.io
+
 ![](hammer3.png.png)
 
 El resultado que nos bota la pagina jwt.io es el siguiente:
+
 ![](hammer2.png.png)
+
 ### Generacion de token admin  
 ```
 import jwt

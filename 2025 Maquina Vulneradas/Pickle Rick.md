@@ -1,4 +1,4 @@
-# Informe de Análisis de Nmap - Rick.thm
+# Rick.thm
 
 ## Introducción
 
