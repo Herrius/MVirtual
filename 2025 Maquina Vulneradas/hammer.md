@@ -1,4 +1,4 @@
-# Informe de Pentesting - Máquina hammer.thm
+# Hammer
 
 **Fecha:** 2025-04-06
 

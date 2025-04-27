@@ -103,7 +103,9 @@ gobuster dir -u http://toysus.thm -w /usr/share/seclists/Discovery/Web-Content/c
 
 ## 3.1 Objetivo
 Acceder a la ruta protegida `/protected`, identificada en la enumeración anterior, mediante ataque de fuerza bruta sobre el mecanismo de autenticación HTTP Basic.
+
 ![](ToolsRUs.png)
+
 ## 3.2 Ataque con Hydra
 Se utilizó `hydra`, una herramienta de fuerza bruta de contraseñas, atacando la autenticación HTTP Basic del servidor.
 
