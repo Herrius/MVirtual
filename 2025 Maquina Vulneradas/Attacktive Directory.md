@@ -1,4 +1,4 @@
-# Compromiso de un Entorno Active Directory en TryHackMe
+# AttacktiveDirectory | Tryhackme
 
 ## Información General
 - **Nombre de la máquina**: AttacktiveDirectory
