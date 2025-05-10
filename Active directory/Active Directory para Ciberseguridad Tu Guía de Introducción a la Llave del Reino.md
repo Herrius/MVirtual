@@ -9,7 +9,7 @@ Imagina Active Directory (AD DS - Active Directory Domain Services) como una bas
 
 En lugar de tener que gestionar cada usuario y cada equipo individualmente en cada recurso, AD te permite hacerlo todo desde un punto central.
 
-## ¿Por Qué es el Objetivo Principal en Ciberseguridad? La 'Llave del Reino'
+## Active Directory: ¿Por Qué es Crítico para la Ciberseguridad?
 
 Aquí está el quid de la cuestión para nosotros: AD no solo gestiona quiénes son los usuarios y los equipos (autenticación), sino también **a qué tienen derecho a acceder** (autorización).
 
