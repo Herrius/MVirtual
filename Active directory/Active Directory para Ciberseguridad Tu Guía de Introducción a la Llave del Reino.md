@@ -200,7 +200,7 @@ Además de un laboratorio local, considera explorar la opción de montar un labo
 
 Una vez que tengas tu laboratorio en funcionamiento, la teoría que has leído en este artículo cobrará mucho más sentido. Podrás ver cómo se aplican las GPOs, cómo se gestionan los permisos con ACLs, cómo funcionan los protocolos de autenticación y, lamentablemente, cuán fáciles pueden ser ciertos ataques si AD no está bien configurado. Esta base práctica te permitirá saber con mucha más claridad qué aspectos de AD necesitas proteger (si trabajas en defensa) o cómo encontrar debilidades (si te enfocas en la ofensiva) y, lo más importante, profundizar en áreas específicas de tu interés.
 
-## En Conclusión
+## Conclusión
 Active Directory es mucho más que una simple base de datos de usuarios. Es el pilar central de la seguridad en la mayoría de las redes corporativas Windows. Para cualquier profesional de ciberseguridad, ya sea defensivo (Blue Team) u ofensivo (Red Team), tener un conocimiento sólido de cómo funciona AD, cómo se configura, cómo se protege y cómo se ataca **no es negociable**.
 
 Empieza por familiarizarte con los conceptos aquí expuestos (muchos de ellos visualizados en las imágenes). Luego, **monta tu laboratorio y pon la teoría en práctica**. Finalmente, profundiza en las técnicas de ataque y, lo que es más importante, en las estrategias de defensa y monitoreo. Herramientas como `BloodHound` y la capacidad de analizar logs de seguridad de Windows/AD serán tus mejores amigas en este camino.
