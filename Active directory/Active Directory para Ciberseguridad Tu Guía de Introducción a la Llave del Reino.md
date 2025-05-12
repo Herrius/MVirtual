@@ -40,7 +40,7 @@ Este es un servidor crítico que aloja una copia de la base de datos de AD. Los 
 
 ---
 
-![](dc%20y%20base%20de%20datos.png)
+![](anexo/dc%20y%20base%20de%20datos.png)
 
 
 > **Explicación:** Esta imagen destaca la relación entre un **Controlador de Dominio (DC)** y el archivo **NTDS.DIT**, que es la base de datos real de Active Directory. La advertencia clave aquí, crucial para la seguridad, es que el **NTDS.DIT "CONTIENE HASHES"**. Estos hashes son el objetivo principal de muchos ataques de robo de credenciales.
@@ -63,7 +63,7 @@ Son contenedores dentro de un dominio que te permiten organizar objetos (usuario
 Relaciones entre dominios o bosques que permiten a los usuarios de un dominio acceder a recursos en otro. Una confianza mal configurada puede permitir a un atacante pivotar de un dominio (quizás menos seguro) a otro dentro de la organización.
 
 ---
-![](bosques%20y%20trust.png)
+![](anexo/bosques%20y%20trust.png)
 
 > **Explicación:** Esta imagen ilustra estructuras de Active Directory más grandes que un solo dominio. Muestra cómo múltiples dominios pueden formar un **Árbol** y cómo árboles separados o dominios independientes pueden formar un **Bosque**. La clave para la seguridad en estos entornos extendidos son las **Confianzas (Trusts)** que se establecen entre ellos. Entender cómo funcionan estas confianzas es crucial para analizar rutas de movimiento lateral entre dominios o bosques.
 ---
@@ -74,7 +74,7 @@ Un controlador de dominio configurado como Catálogo Global almacena una réplic
 
 ---
 
-![](global%20catalog.png)
+![](anexo/global%20catalog.png)
 > **Explicación:** Esta imagen muestra cómo un **Controlador de Dominio (DC)** puede funcionar como **Catálogo Global (GC)**, conteniendo una réplica parcial de objetos de otros dominios en el bosque. Esto facilita la búsqueda rápida de recursos a través de múltiples dominios, pero también significa que el GC contiene información replicada de todo el bosque, lo cual es relevante en un contexto de reconocimiento por parte de un atacante.
 ---
 
@@ -102,7 +102,7 @@ La seguridad en AD gira en torno a las identidades y cómo se les otorgan permis
 Representan a las máquinas unidas al dominio. Los equipos también tienen una cuenta en AD (con una contraseña que se gestiona automáticamente) y son entidades de seguridad. Pueden ser miembros de grupos y, como vimos, se les aplican GPOs. Asegurar los equipos (endurecimiento, parcheo, EDR) es parte de la protección del perímetro de AD.
 
 ---
-![](objetos%20de%20equipo.png)
+![](anexo/objetos%20de%20equipo.png)
 > **Explicación:** Esta imagen desglosa los tipos principales de **Objetos** en Active Directory: **Usuario**, **Equipo** y **Grupo**. Muestra ejemplos de los **Atributos** asociados a cada uno, como el nombre de usuario, el SID (que es fundamental para la seguridad y los permisos), el sistema operativo, etc. Comprender estos objetos y sus atributos es clave para enumerar y entender la información dentro de AD.
 ---
 
@@ -112,7 +112,7 @@ Los permisos para acceder a recursos se definen utilizando ACLs, que son listas 
 
 ---
 
-![](acl.webp)
+![](anexo/acl.webp)
 > **Explicación:** Esta imagen ilustra cómo funciona una **Lista de Control de Acceso (ACL)**. Muestra cómo un **Usuario** (identificado por su SID) o un **Grupo** (identificado por su SID) tienen permisos específicos definidos en la ACL para acceder a un **Recurso Protegido**. También destaca el **Grupo Crítico "DOMAIN ADMINS"**, cuya membresía implica permisos casi totales, haciendo que las ACLs aplicadas a objetos sensibles y la membresía en grupos privilegiados sean puntos focales para la seguridad y las auditorías.
 ---
 
@@ -123,7 +123,7 @@ Cuando un usuario o equipo intenta acceder a un recurso en el dominio, AD utiliz
 El protocolo de autenticación principal y más seguro (si está bien configurado) en AD. Utiliza un sistema de tickets.
 
 ---
-![](kerberos.png)
+![](anexo/kerberos.png)
 > **Explicación:** Esta imagen es un diagrama simplificado del proceso de autenticación **Kerberos**. Muestra cómo un **Usuario** interactúa con el **Controlador de Dominio (KDC)** para obtener primero un **Ticket Granting Ticket (TGT)** y luego, usando el TGT, solicita un **Ticket de Servicio** para acceder a un **Servidor de Aplicaciones**. Este proceso basado en tickets es fundamental para entender ataques como **Pass-the-Ticket** o **Kerberoasting**.
 ---
 ### NTLM (NT LAN Manager)
@@ -134,7 +134,7 @@ Un protocolo más antiguo y menos seguro. Todavía se usa como fallback. **Es al
 Como mencionamos, son la forma principal de empujar configuraciones (incluida la seguridad) a usuarios y equipos.
 
 ---
-![](politicas%20de%20grupo.png)
+![](anexo/politicas%20de%20grupo.png)
 
 > **Explicación:** Esta imagen visualiza cómo un **Controlador de Dominio (DC)** es responsable de aplicar las **Políticas de Grupo (GPO)** a los **Usuarios** y **Equipos** del dominio. Las GPOs son esenciales para establecer configuraciones de seguridad consistentes, pero si un atacante puede controlarlas, puede implementar código malicioso o deshabilitar defensas en un gran número de sistemas.
 ---
@@ -143,7 +143,7 @@ Como mencionamos, son la forma principal de empujar configuraciones (incluida la
 AD depende críticamente de DNS. Los clientes usan DNS para encontrar los Controladores de Dominio y otros servicios de AD.
 
 ---
-![](dns.png)
+![](anexo/dns.png)
 > **Explicación:** Esta imagen ilustra la dependencia vital de Active Directory en **DNS**. Muestra cómo un **Cliente** pregunta a un **Servidor DNS** para encontrar la dirección de un **Controlador de Dominio (DC)** y poder así autenticarse y acceder a AD. Esto subraya por qué la seguridad de la infraestructura DNS es una parte integral de la seguridad de Active Directory.
 ---
 ## Vectores de Ataque Comunes (El 'Cómo' Atacan AD)
