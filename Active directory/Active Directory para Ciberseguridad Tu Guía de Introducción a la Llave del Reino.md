@@ -30,7 +30,7 @@ Para entender la seguridad de AD, primero necesitas conocer sus componentes clav
 ### Dominio
 Es el límite de seguridad básico. Todos los objetos dentro de un dominio comparten la misma base de datos de cuentas, políticas de seguridad y relaciones de confianza. Si se compromete un dominio, el daño suele estar contenido dentro de él (a menos que haya confianzas mal configuradas).
 
-![](dominion.png)
+![](anexo/dominion.png)
 
 > **Explicación:** Esta imagen muestra la estructura fundamental de un dominio de Active Directory. Puedes ver los **Controladores de Dominio (DC)** que alojan la **Base de Datos de AD (NTDS.DIT)** y cómo las **Unidades Organizativas (OUs)** organizan los principales tipos de **Objetos** (Usuario, Equipo, Grupo) dentro de ese dominio. Comprender esta organización es el primer paso para entender cómo se gestiona y, por lo tanto, cómo se protege.
 ---
