@@ -5,8 +5,8 @@ La primera fase de un ataque a Active Directory (AD) en un CTF es el **Reconocim
 Todo comienza con un escaneo de puertos. `nmap` es la herramienta estándar. Se suele realizar un escaneo rápido de todos los puertos, seguido de un escaneo más detallado con detección de versiones y scripts en los puertos abiertos.
 **Resultados del Escaneo Nmap en `10.10.41.115` (Dominio: `thm.local0.`)**
 Los siguientes comandos fueron ejecutados contra `10.10.41.115`:
-1.  `nmap --privileged -sS -p- -Pn -n -min-rate 5000 -oG ports 10.10.41.115` (Escaneo de todos los puertos TCP)
-2.  `nmap --privileged -sVC -p<puertos_abiertos_detectados> -oG services 10.10.41.115` (Escaneo de servicios y scripts)
+1.  `nmap -sS -p- -Pn -n -min-rate 5000 -oG ports 10.10.41.115` (Escaneo de todos los puertos TCP)
+2.  `nmap -sVC -p<puertos_abiertos_detectados> -oG services 10.10.41.115` (Escaneo de servicios y scripts)
 
 **Servicios Clave Identificados en `10.10.41.115` y su Relevancia (Sin Autenticación):**
 *   **53/tcp (DNS - Simple DNS Plus):** Crucial para identificar el dominio, controladores de dominio (DCs) y otros servicios mediante consultas SRV. Es el primer paso para mapear la infraestructura de AD.
