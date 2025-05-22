@@ -1,4 +1,4 @@
-## Introducción
+## The Sticker Shop
 
 Este walkthrough describe el proceso para vulnerar una máquina en TryHackMe, identificando vulnerabilidades en una página web de stickers de gato y explotándolas para extraer la flag oculta.
 

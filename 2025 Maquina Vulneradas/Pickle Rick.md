@@ -1,4 +1,4 @@
-# Rick.thm
+# Pickle Rick
 
 ## Introducción
 

@@ -1,3 +1,4 @@
+# Lofi
 **Objetivo:** Bypassear el filtro del servidor y encontrar la flag.
 
 ---

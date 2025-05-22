@@ -1,4 +1,4 @@
-## 1. Introducción
+## Brute it
 
 El presente informe detalla un análisis de seguridad ofensiva sobre una máquina Linux expuesta en el entorno de red TryHackMe, con IP 10.10.89.77. El objetivo fue identificar vectores de acceso inicial, explotación y escalada de privilegios con el fin de evaluar la resistencia del sistema ante ataques reales. El análisis se llevó a cabo bajo un enfoque Black Box, simulando a un atacante externo sin credenciales previas.
 ## 2. Escaneo Inicial

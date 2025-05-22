@@ -1,4 +1,4 @@
-# 1. Introducción
+# ToolRus
 
 Se realizó una evaluación de seguridad sobre el objetivo identificado como `toysus.thm`, una máquina accesible a través de la red.  
 El alcance incluyó:

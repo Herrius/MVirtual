@@ -1,4 +1,4 @@
-# AttacktiveDirectory
+# Attacktive Directory
 
 ## Información General
 - **Nombre de la máquina**: AttacktiveDirectory
