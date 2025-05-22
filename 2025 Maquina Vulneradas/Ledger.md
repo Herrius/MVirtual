@@ -1,4 +1,4 @@
-# Compromiso de la máquina Ledger en TryHackMe
+# Ledger
 ## Información General
 - **Nombre de la máquina**: Ledger (actuando como DC: LABYRINTH.thm.local)
 - **Dirección IP**: 10.10.120.231
