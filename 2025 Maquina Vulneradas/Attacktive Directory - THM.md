@@ -1,4 +1,4 @@
-# AttacktiveDirectory | Tryhackme
+# AttacktiveDirectory
 
 ## Información General
 - **Nombre de la máquina**: AttacktiveDirectory
