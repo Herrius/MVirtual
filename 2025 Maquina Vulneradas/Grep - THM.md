@@ -6,9 +6,8 @@ Aquí tienes la versión revisada:
 
 **Write-up: Reconocimiento y Explotación Inicial de `grep.thm` (10.10.243.129)**
 
-**Fecha de la Evaluación:** 30 de Mayo de 2025
-**Evaluador:** [Tu Nombre/Alias]
-**Objetivo:** Máquina `grep.thm` (IP: `10.10.243.129`)
+- **Fecha de la Evaluación:** 30 de Mayo de 2025
+- **Objetivo:** Máquina `grep.thm` (IP: `10.10.243.129`)
 
 ---
 
