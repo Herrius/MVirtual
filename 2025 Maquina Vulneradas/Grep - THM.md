@@ -1,9 +1,3 @@
-¡Perfecto! He actualizado todas las rutas de las imágenes en tu write-up para que apunten al subdirectorio `anexos/` como lo solicitaste.
-
-Aquí tienes la versión revisada:
-
----
-
 **Write-up: Reconocimiento y Explotación Inicial de `grep.thm` (10.10.243.129)**
 
 - **Fecha de la Evaluación:** 30 de Mayo de 2025
