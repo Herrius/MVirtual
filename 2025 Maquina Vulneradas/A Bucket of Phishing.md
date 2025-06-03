@@ -1,5 +1,4 @@
-# Compromiso de Datos Confidenciales en el Bucket S3 "DarkInjectorPhish"
-
+# A Bucket of Phish - THM
 ## Información General
 - **Nombre de la máquina**: DarkInjectorPhish (Bucket S3)
 - **Dirección IP**: `darkinjector-phish.s3-website-us-west-2.amazonaws.com` (Endpoint del sitio web S3) y `darkinjector-phish.s3.us-west-2.amazonaws.com` (Endpoint S3 API)
