@@ -52,6 +52,19 @@ Se realizó un escaneo Nmap para identificar puertos abiertos, sus versiones y p
 
 ```bash
 ┌──(kali㉿kali)-[~/grep]
+└─$ nmap -p- -n -Pn -sS --min-rate 5000 10.10.243.129 -oG ports
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-03 18:38 EDT
+Nmap scan report for 10.10.243.129
+Host is up (0.18s latency).
+Not shown: 65531 closed tcp ports (reset)
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+443/tcp   open  https
+51337/tcp open  unknown
+
+
+┌──(kali㉿kali)-[~/grep]
 └─$ nmap -sVC -p22,80,443,51337 10.10.243.129 -oG services -oX report.xml
 ```
 
@@ -92,15 +105,7 @@ Posteriormente, el archivo `report.html` fue abierto en el navegador Firefox par
 
 Dado el hallazgo del nombre de dominio `grep.thm` en el certificado SSL del puerto 443, se procedió a añadir una entrada en el archivo `/etc/hosts` local para resolver `grep.thm` a la dirección IP del objetivo. Esto es crucial para asegurar que las solicitudes al dominio `grep.thm` se dirijan correctamente a la máquina objetivo, lo que es vital para la exploración de aplicaciones web basadas en nombres de host virtuales.
 
-**Comando para Editar `/etc/hosts` (Intento Inicial):**
-
-```bash
-┌──(kali㉿kali)-[~/grep]
-└─$ sudo /etc/hosts
-sudo: /etc/hosts: command not found
-```
-
-**Comando Correcto (para editar `/etc/hosts`):**
+**Comando para Editar `/etc/hosts`:**
 
 ```bash
 ┌──(kali㉿kali)-[~/grep]
