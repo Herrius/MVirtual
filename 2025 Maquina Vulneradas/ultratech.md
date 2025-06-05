@@ -1,9 +1,3 @@
-¡Mis disculpas! Tienes toda la razón. Pasé por alto la inclusión de las referencias a las imágenes que eran parte integral de tu informe original.
-
-He reincorporado las referencias a las imágenes en las secciones correspondientes del writeup.
-
----
-
 # Compromiso de la máquina UltraTech
 
 ## Información General
